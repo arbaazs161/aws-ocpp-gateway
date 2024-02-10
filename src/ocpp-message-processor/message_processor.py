@@ -5,8 +5,8 @@ import ocpp.messages
 
 from datetime import datetime
 
-from ocpp.v201.enums import Action
-from ocpp.v201.enums import RegistrationStatusType
+from ocpp.v16.enums import Action
+from ocpp.v16.enums import RegistrationStatusType
 
 iot = boto3.client("iot-data", region_name=os.environ["AWS_REGION"])
 
